@@ -1,0 +1,19 @@
+version: "3"
+services:
+  subscriber:
+    build:
+      context: ./subscriber
+      dockerfile: Dockerfile
+    networks:
+     - audaces-network-2
+    
+  publisher:
+    build:
+      context: ./publisher
+      dockerfile: Dockerfile
+    networks:
+     - audaces-network-2
+
+networks:
+  audaces-network-2:
+    driver: bridge
