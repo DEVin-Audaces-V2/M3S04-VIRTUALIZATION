@@ -91,3 +91,21 @@
     ps: Lembre-se de desligar sua máquina EC2 (stop/parar).
 
 
+## S3 e AWS CLI
+
+- ciando bucket via AWS CLI
+    aws s3api create-bucket --bucket NOME_DO_BUCKET --region REGIAO
+
+- upload: para fazer o upload do arquivo "meu_arquivo.txt" para o bucket "meu-novo-bucket", o comando ficaria assim (supondo que o arquivo esteja no diretório atual):
+    aws s3 cp meu_arquivo.txt s3://meu-novo-bucket/
+
+- upload: para fazer o upload de todos os arquivos do diretório "meu_diretorio" para o bucket "meu-novo-bucket":
+    aws s3 cp meu_diretorio s3://meu-novo-bucket/ --recursive
+
+- download: Por exemplo, para fazer o download do arquivo "meu_arquivo.txt" do bucket "meu-novo-bucket" para o diretório atual, o comando ficaria assim:
+
+    aws s3 cp s3://meu-novo-bucket/meu_arquivo.txt ./
+
+- download: Se você quiser fazer o download de um diretório inteiro e todos os seus arquivos, adicione a opção --recursive ao comando, como mostrado abaixo:
+
+    aws s3 cp s3://NOME_DO_BUCKET/CAMINHO_DO_DIRETORIO CAMINHO_LOCAL/ --recursive

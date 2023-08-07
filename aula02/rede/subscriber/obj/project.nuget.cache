@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2lC8MlWQ6GrvwqEyWQZlVYNRBoWt8VQqc8k8Zi9u4MfxlITlLeo1oLbk+Hd96BiX2p69D8Qzz8a9x+CXk06IHw==",
+  "success": true,
+  "projectFilePath": "/home/rafa/Desktop/M3S04-VIRTUALIZATION/aula02/rede/subscriber/subscriber.csproj",
+  "expectedPackageFiles": [
+    "/home/rafa/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.netcore.app.host.linux-x64/5.0.17/microsoft.netcore.app.host.linux-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

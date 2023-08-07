@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3Vy19w7kO4p1IwPGN2qcUVec4KgTdG9ET8UuwACc8f5CoUOOaNZfTusLSHQqOZPB9YrQw/sSW6mUPlD/TJ23pA==",
+  "success": true,
+  "projectFilePath": "/home/rafa/Desktop/M3S04-VIRTUALIZATION/aula02/volumes/escrita/writer.csproj",
+  "expectedPackageFiles": [
+    "/home/rafa/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.netcore.app.host.linux-x64/5.0.17/microsoft.netcore.app.host.linux-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

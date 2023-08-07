@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "U/TwI09NN3mt1yDlS7CRS4nvb59t8bR+UcuajrSTchIF/2YSo59C1oAFNmDPylltu9uo2a3HKwDnbYP9CBxiqg==",
+  "success": true,
+  "projectFilePath": "/home/rafa/Desktop/M3S04-VIRTUALIZATION/aula02/volumes/leitura/reader.csproj",
+  "expectedPackageFiles": [
+    "/home/rafa/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/home/rafa/.nuget/packages/microsoft.netcore.app.host.linux-x64/5.0.17/microsoft.netcore.app.host.linux-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
